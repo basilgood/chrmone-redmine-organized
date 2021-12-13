@@ -1,1 +1,1 @@
-# chrmone-redmine-organized
+# chrome-redmine-organized
