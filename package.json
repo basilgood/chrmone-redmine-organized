@@ -1,0 +1,32 @@
+{
+  "name": "chrome-redmine-organized",
+  "version": "1.0.0",
+  "description": "Chrome extension to work easily with redmine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "redmine",
+    "chrome extension"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basilgood/chrome-redmine-organized.git"
+  },
+  "author": "basilgood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/basilgood/chrome-redmine-organized/issues"
+  },
+  "homepage": "https://github.com/basilgood/chrome-redmine-organized#readme",
+  "dependencies": {
+    "lit-html": "^2.0.2",
+    "haunted": "^4.8.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.4.1",
+    "prettier": "^2.5.1",
+    "rimraf": "^3.0.2"
+  }
+}
