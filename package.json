@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint src/index.js",
-    "start": "parcel src/index.html",
-    "build": "rimraf dist && parcel build src/index.html"
+    "lint": "eslint src/background.js",
+    "start": "parcel src/popup.html -d src/dist",
+    "build": "rimraf src/dist && parcel build src/popup.html -d src/dist"
   },
   "keywords": [
     "redmine",

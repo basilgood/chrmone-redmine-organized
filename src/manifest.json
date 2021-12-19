@@ -1,0 +1,17 @@
+{
+  "name": "Redmine time tracking",
+  "description": "Chrome extension for easy to use redmine",
+  "version": "0.1.0",
+  "manifest_version": 3,
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "permissions": ["storage"],
+
+  "action": {
+    "default_popup": "dist/popup.html",
+    "default_icon": "icon/redmine.png"
+  }
+}
